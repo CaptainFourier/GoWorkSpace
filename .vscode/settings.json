@@ -1,0 +1,28 @@
+{
+    "git.ignoreLimitWarning": true,
+    //开启自动保存
+    "files.autoSave": "onFocusChange",
+    "go.buildFlags": [],
+    "go.lintFlags": [],
+    "go.useCodeSnippetsOnFunctionSuggest": false,
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": true
+    },
+    "go.formatTool": "goreturns",
+    "go.goroot": "D:\\Go",
+    "go.gopath": "D:\\GoPath",
+    "go.inferGopath": false,    
+    "go.buildOnSave": "workspace",   
+    "go.lintOnSave": "workspace",  
+    "go.vetOnSave": "workspace",    
+    "go.vetFlags": [],   
+    "go.formatOnSave": false,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.customCommand": "echo Hello"        
+    
+       
+       
+    
+    
+}
