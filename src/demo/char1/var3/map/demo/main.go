@@ -17,6 +17,7 @@ func main() {
 	sliceMap[key] = value
 	fmt.Println(sliceMap)
 	mapDemo()
+	mapDemo1()
 }
 
 func mapDemo() {
@@ -29,4 +30,13 @@ func mapDemo() {
 	s = append(s[:1], s[2:]...)
 	fmt.Printf("%+v\n", s)
 	fmt.Printf("%+v\n", m["qimi"])
+}
+
+func mapDemo1() {
+	name := make(map[int]string, 20)
+	fmt.Println(name)
+	for _, i := range name {
+		fmt.Println(i)
+	}
+
 }
