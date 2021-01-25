@@ -1,4 +1,4 @@
-module GoWorkSpace/src/demo/char1
+module GoWorkSpace
 
 go 1.15
 

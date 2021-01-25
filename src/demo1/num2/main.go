@@ -2,15 +2,33 @@
  * @Author: Xxπ。
  * @data: time
  */
-/*
- * @Author: Xxπ。
- * @data: time
- */
+
 package main
 
-import "fmt"
-
 func main() {
-	x := 123
-	fmt.Println(x/100, x/10%10, x%10)
+	a := "Hello world"
+	b := " "
+	c := "a"
+	lengthOfLastWord(a)
+	lengthOfLastWord(b)
+	lengthOfLastWord(c)
+}
+func lengthOfLastWord(s string) int {
+	var j int
+	if len(s) == 0 {
+
+		return 0
+	}
+
+	for i := len(s) - 1; i >= 0; i-- {
+		if (s[i]) != ' ' {
+			j++
+		}
+		if j != 0 && (s[i]) == ' ' {
+			break
+		}
+	}
+
+	return j
+
 }
