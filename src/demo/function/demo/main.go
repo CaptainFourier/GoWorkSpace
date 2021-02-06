@@ -1,11 +1,15 @@
 /*
  * @Author: Xxπ。
- * @data: time
+ * @Version: 0.1
+ * @Date: 2021-01-16 23:06:35
+ * @LastEditTime: 2021-02-06 13:43:14
+ * @LastEditors: CaptainFourier
  */
 /*
  * @Author: Xxπ。
  * @data: time
  */
+
 package main
 
 import (
